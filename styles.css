@@ -1,0 +1,293 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.beranda{
+    background-image: url(img/beranda.jpg);
+    background-color: #9b4922;
+    background-size: contain;
+    background-position: left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    font-size: 20px;
+}
+.navbar button {
+    background-color: transparent;
+    font-size: 15px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.navbar li {
+    display: block;
+    text-align: center;
+    padding: 10px 16px;
+    float: left;
+}
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.navbar li a:hover {
+    border-bottom: 3px solid red;
+    color: burlywood;
+}
+.navbar li a:active {
+    border-bottom: 3px solid red;
+    color: lightblue;
+    width: 100%;
+}
+.navbar li a::after{
+    transition: width 0.3s ease;
+}
+.navbar li a:hover::after{
+    color: red;
+}
+.search {
+    color: black;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    background-color: transparent;  
+}
+.search::placeholder {
+    color: black;
+}
+.search-outline {
+    background-color: transparent;
+}
+.icon {
+    float: left;
+    position: fixed;
+    padding: 10px;
+}
+.icon img {
+    width: 15%;
+    height: 15%;
+    float: left;
+}
+.konten-beranda {
+    float: right;
+    margin: 30vh;
+    justify-content: center;
+}
+.konten-beranda button {
+    background-color: #e3ac77;
+    width: 100px;
+    height: 50px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+.konten-beranda button a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: relative;
+  float: right;
+  top: -30px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.menu-button {
+    margin-left: -20vh;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    z-index: 2;
+    transition: margin-left 0.5s;
+    padding: 10px;
+}
+button.menu-button img {
+    width: 15%;
+    height: 15%;
+}
+.produk{
+    background-color: white;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+}
+.produk h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+.produk-item {
+    width: 20%;
+    height: 70%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+.produk-item img {
+    width: 100%;
+    height: 100%;
+}
+.item{
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.produk-item h2 {
+    font-size: 100%;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 0;
+    position: absolute;
+
+}
+.produk-item p {
+    font-size: 100%;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 1%;
+    padding-top: 0.5%;
+    position: absolute;
+}
+.produk-item button {
+    background-color: #e3ac77;
+    width: 25%;
+    height: 20%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    position: inherit;
+}
+.produk-item button a {
+    text-decoration: none;
+    color: white;
+}
+.produk-item button ion-icon {
+    font-size: 30px;
+}
+.tentang{
+    background-image: url(img/tentang.jpg);
+    background-color: #9b4922;
+    background-size: contain;
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.isi{
+    width: 40%;
+    height: 70%;
+    font-size: 100%;
+    padding-top: 10%;
+    padding-left: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+.isi img {
+    position: static;
+    width: 55%;
+    height: 30%;
+    margin-left: 25%;
+}
+.kontak {
+    margin-top: -1.3%;
+    background-color: rgb(134, 131, 118) ;
+    width: 100%;
+    height: 50vh;
+}
+.isi-kontak h1 {
+    text-transform: uppercase;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.isi-kontak h4 {
+    padding-left: 5%;
+    width: 100%;
+}
+.isi-kontak h4 ion-icon{
+    color: #111;
+
+}
+.isi-kontak a{
+    text-decoration: none;
+    color: #111;
+}
+.kontak{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: inherit;
+    gap: 30%;
+}
+
+

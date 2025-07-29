@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>OMJO</title>
+    <link rel="shortcut icon" href="ico/omjo.png"image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="header" id="header">
+        <!-- <a href="ico/omjo.png" class="icon" id="icon"><img src="ico/omjo.png" alt="OMJO Logo"></a> -->
+        <div class="beranda" id="beranda">
+            <div class="navbar" id="navbar">
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#produk">Produk</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                    <li>
+                        <input type="text" placeholder="Search..." name="search" class="search">
+                        <button type="submit"><ion-icon name="search-outline" class="search-outline"></ion-icon></button>
+                    </li>
+                    <li>
+                        <button type="submit"><a href="login.html"><ion-icon name="person-circle-outline"></ion-icon></a></button>
+                    </li>
+                </ul>
+            </div>
+                <div id="sidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" id="closebtn" onclick="closeNav()">×</a>
+                    <a href="#furnitur">Furnitur</a>
+                    <a href="#ruangan">Ruangan</a>
+                    <a href="#desain-interior">Desain Interior</a>
+                </div>
+                <div id="menu" class="menu">
+                 <button class="menu-button" id="menu-button" onclick="openNav()"><img src="ico/omjo.png" alt="OMJO Logo"></button>
+                </div>
+                <div class="konten-beranda" id="konten-beranda">
+                <img src="ico/omjo.png" alt="OMJO Logo"><br>
+                <button><a href="#produk">Lihat</a></button>
+                </div> 
+            </div>
+    </div>
+
+    <div class="produk" id="produk">
+        <h1>Furnitur</h1>
+    <div class="item" id="furnitur">
+       <div class="produk-item">
+           <img src="img/kursi-kayu.png" alt="Kursi Kayu">
+           <h2>Kursi Kayu</h2>
+           <p>Rp. 500.000</p>
+           <button><a href="#checkout"><ion-icon name="cart-outline"></ion-icon></a></button>
+       </div>
+       <div class="produk-item">
+           <img src="img/kursi-hajatan.webp" alt="Kursi Hajatan">
+           <h2>Kursi Hajatan</h2>
+           <p>Rp. 750.000</p>
+           <button><a href="#checkout"><ion-icon name="cart-outline"></ion-icon></a></button>
+       </div>
+       <div class="produk-item">
+           <img src="img/kursi-kantor.jpeg" alt="Kursi Kantor">
+           <h2>Kursi Kantor</h2>
+           <p>Rp. 1.000.000</p>
+           <button><a href="#checkout"><ion-icon name="cart-outline"></ion-icon></a></button>
+        </div>
+    </div>
+   </div>
+   <div class="tentang" id="tentang">
+    <div class="isi" id="isi">
+         <img src="ico/omjo.png" alt="OMJO Logo"><br>
+         <p>Omjo adalah toko furniture terpercaya yang menghadirkan beragam pilihan perabotan rumah tangga berkualitas tinggi dengan desain modern, minimalis, dan fungsional. Kami percaya bahwa rumah yang nyaman dimulai dari furniture yang tepat—itulah sebabnya setiap produk Omjo dirancang dengan memperhatikan detail, estetika, dan kenyamanan.</p><br>
+         <p>Dari ruang tamu, kamar tidur, dapur, hingga ruang kerja, Omjo menyediakan solusi furniture yang elegan dan tahan lama untuk memenuhi berbagai kebutuhan dan gaya hidup Anda. Produk kami dibuat dari bahan pilihan dan dikerjakan oleh tenaga ahli, memastikan hasil akhir yang tidak hanya indah dipandang, tetapi juga awet digunakan.</p><br>
+         <p>Di Omjo, kami juga menyediakan layanan pemesanan custom untuk Anda yang ingin furniture sesuai ukuran dan selera pribadi. Dengan proses pemesanan yang mudah dan layanan pelanggan yang responsif, kami siap membantu Anda mewujudkan rumah impian.</p>
+    </div>
+   </div>
+   <div class="kontak" id="kontak">
+    <div class="isi-kontak" id="isi-kontak">
+        <h1>Talk to us</h1><br>
+        <h4><a href="tel:+(04) 298 3985 2092"><ion-icon name="call-outline"></ion-icon> (04) 298 3985 2092</a></h4>
+        <h4><a href="www.whatsapp.com"><ion-icon name="logo-whatsapp"></ion-icon>   +76 209 1092 4095</a></h4>
+        <h4><a href="mailto:info@omjo.com"><ion-icon name="mail-outline"></ion-icon>    info@omjo.com</a></h4>
+        <h4><a href="http://instagram.com"><ion-icon name="logo-instagram"></ion-icon>  @omjo</a></h4>
+        <h4><a href="www.x.com"><ion-icon name="logo-twitter"></ion-icon>   @omjo</a></h4>       
+    </div>
+    <div class="gambar-kontak" id="gambar-kontak">
+        <img src="ico/omjo.png" alt="OMJO Logo">
+    </div>
+   </div>
+<script>
+function openNav() {
+  document.getElementById("sidebar").style.width = "250px";
+  document.getElementById("menu").style.marginLeft = "250px";
+    }
+
+function closeNav() {
+  document.getElementById("sidebar").style.width = "0";
+  document.getElementById("menu").style.marginLeft= "0";
+    }
+</script>
+</body>
+</html>
