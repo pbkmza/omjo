@@ -1,0 +1,44 @@
+[
+    {
+        "kode": "F-001",
+        "nama_barang": "Kursi Kayu",
+        "kategori": "Kursi",
+        "brand": "Indokurnia",
+        "harga": "500000"
+    },
+    {
+        "kode": "F-002",
+        "nama_barang": "Kursi Hajatan",
+        "kategori": "Kursi",
+        "brand": "Futura",
+        "harga": 750000
+    },
+    {
+        "kode": "F-003",
+        "nama_barang": "Kursi Gaming",
+        "kategori": "Kursi",
+        "brand": "Herman Miller",
+        "harga": 75000000
+    },
+    {
+        "kode": "F-004",
+        "nama_barang": "Meja Mebel",
+        "kategori": "Meja",
+        "brand": "STARLEAD",
+        "harga": 7500000
+    },
+    {
+        "kode": "F-005",
+        "nama_barang": "Meja Kaca",
+        "kategori": "Meja",
+        "brand": "Trixie",
+        "harga": 4500000
+    },
+    {
+        "kode": "F-006",
+        "nama_barang": "Meja Pingpong",
+        "kategori": "Meja",
+        "brand": "Butterfly",
+        "harga": 2000000
+    }
+]

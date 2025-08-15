@@ -1,0 +1,17 @@
+[
+    {
+        "username": "admin",
+        "password": "admin",
+        "kategori": "seller"
+    },
+    {
+        "username": "user",
+        "password": "user",
+        "kategori": "buyer"
+    },
+    {
+        "username": "zharfan",
+        "password": "coba",
+        "kategori": "seller"
+    }
+]
